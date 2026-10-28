@@ -78,14 +78,15 @@ class IceSection:
 
     def draw(self, c, t, cam, glow_k=1.0, labels=None, alpha=1.0, star_alpha=1.0):
         cx, cy, s = cam
-        xl, xr = cx - W / 2 / s - 2 / s, cx + W / 2 / s + 2 / s
-        yt, yb = cy + H / 2 / s, cy - H / 2 / s
+        # over-draw by 2x so a camera roll never exposes the canvas edge
+        xl, xr = cx - W / s - 2 / s, cx + W / s + 2 / s
+        yt, yb = cy + H / s, cy - H / s
         # sky: deep night with a cold glow low over the range
         p = skia.Paint()
         p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, 0), skia.Point(0, H)],
                     [col((0.010, 0.013, 0.018)).toColor(), col((0.030, 0.042, 0.056)).toColor(),
                      col((0.055, 0.075, 0.095)).toColor()], [0.0, 0.55, 1.0]))
-        c.drawRect(skia.Rect.MakeWH(W, H), p)
+        c.drawRect(skia.Rect.MakeLTRB(-W, -H, 2 * W, 2 * H), p)
         sky_vis = clamp01((0.25 - s) / 0.2)
         if sky_vis > 0 and star_alpha > 0:
             for (x, y, r, ph) in self.stars:
@@ -96,7 +97,7 @@ class IceSection:
         Y = self.surf(X)
         sx, sy = self.to_screen(cam, X, Y)
         sy = np.clip(sy, -4000, H + 4000)
-        interior = path_from(list(zip(sx, sy)) + [(sx[-1], H + 10), (sx[0], H + 10)], close=True)
+        interior = path_from(list(zip(sx, sy)) + [(sx[-1], 3 * H), (sx[0], 3 * H)], close=True)
         p = skia.Paint(AntiAlias=True)
         top_y = float(sy.min())
         p.setShader(skia.GradientShader.MakeLinear([skia.Point(0, top_y), skia.Point(0, max(top_y + 900, H))],

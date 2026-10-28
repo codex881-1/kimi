@@ -11,3 +11,4 @@ __pycache__/
 film/assets/fonts/*.ttf
 film/vo/lines/
 film/vo/*.wav
+film/data/dem/t.png
