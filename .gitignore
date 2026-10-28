@@ -1,0 +1,14 @@
+.venv*/
+film/.venv*/
+film/out/
+film/data/cache/
+film/data/dem/tiles/
+film/data/dem/*.npz
+film/vo/takes/
+__pycache__/
+*.pyc
+.hoplite/
+film/assets/fonts/*.ttf
+film/vo/lines/
+film/vo/*.wav
+film/data/dem/t.png
