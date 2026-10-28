@@ -1,0 +1,8 @@
+.venv/
+.hoplite/
+build/
+dist/
+assets/audio/*.wav
+assets/audio/*.mp3
+__pycache__/
+*.pyc
