@@ -1,0 +1,9 @@
+.venv/
+.hoplite/
+build/
+dist/
+assets/audio/*.wav
+assets/audio/*.mp3
+assets/audio/tts_cache/
+__pycache__/
+*.pyc
