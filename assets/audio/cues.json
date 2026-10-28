@@ -1,0 +1,2379 @@
+{
+  "schema": 1,
+  "generator": "src/audio.py",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_s": 68.0,
+  "format": "PCM_16 wav",
+  "voice": {
+    "engine": "edge-tts",
+    "name": "en-US-AvaMultilingualNeural",
+    "tts_format": "audio-24khz-96kbitrate-mono-mp3",
+    "note": "word times come from the service boundaries (+-60 ms); sentence times from the audio"
+  },
+  "files": {
+    "mix": "mix.wav",
+    "narration_only": "narration_only.wav",
+    "effects_only": "effects_only.wav",
+    "narration_clips": "narration/<id>.wav (dry, mono, onset at `start`)"
+  },
+  "narration": [
+    {
+      "id": "N1",
+      "block": "N1",
+      "text": "Nineteen sixty-nine. A black arrow heads for China. No pilot. Just a camera, and a route locked in its memory.",
+      "rate_pct": 32,
+      "start": 0.8,
+      "end": 6.75,
+      "slot_end": 6.8,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "Nineteen sixty-nine.",
+          "start": 0.8,
+          "end": 1.888
+        },
+        {
+          "text": "A black arrow heads for China.",
+          "start": 2.087,
+          "end": 3.425
+        },
+        {
+          "text": "No pilot.",
+          "start": 3.624,
+          "end": 4.273
+        },
+        {
+          "text": "Just a camera, and a route locked in its memory.",
+          "start": 4.472,
+          "end": 6.75
+        }
+      ],
+      "words": [
+        {
+          "w": "Nineteen",
+          "start": 0.761,
+          "end": 1.281
+        },
+        {
+          "w": "sixty-nine",
+          "start": 1.291,
+          "end": 1.85
+        },
+        {
+          "w": "A",
+          "start": 2.045,
+          "end": 2.121
+        },
+        {
+          "w": "black",
+          "start": 2.131,
+          "end": 2.386
+        },
+        {
+          "w": "arrow",
+          "start": 2.462,
+          "end": 2.652
+        },
+        {
+          "w": "heads",
+          "start": 2.661,
+          "end": 2.907
+        },
+        {
+          "w": "for",
+          "start": 2.917,
+          "end": 3.002
+        },
+        {
+          "w": "China",
+          "start": 3.002,
+          "end": 3.381
+        },
+        {
+          "w": "No",
+          "start": 3.582,
+          "end": 3.79
+        },
+        {
+          "w": "pilot",
+          "start": 3.79,
+          "end": 4.254
+        },
+        {
+          "w": "Just",
+          "start": 4.474,
+          "end": 4.644
+        },
+        {
+          "w": "a",
+          "start": 4.644,
+          "end": 4.672
+        },
+        {
+          "w": "camera",
+          "start": 4.682,
+          "end": 5.146
+        },
+        {
+          "w": "and",
+          "start": 5.37,
+          "end": 5.522
+        },
+        {
+          "w": "a",
+          "start": 5.531,
+          "end": 5.56
+        },
+        {
+          "w": "route",
+          "start": 5.56,
+          "end": 5.844
+        },
+        {
+          "w": "locked",
+          "start": 5.853,
+          "end": 6.118
+        },
+        {
+          "w": "in",
+          "start": 6.128,
+          "end": 6.232
+        },
+        {
+          "w": "its",
+          "start": 6.241,
+          "end": 6.336
+        },
+        {
+          "w": "memory",
+          "start": 6.346,
+          "end": 6.705
+        }
+      ],
+      "file": "narration/N1.wav"
+    },
+    {
+      "id": "N2",
+      "block": "N2",
+      "text": "The D-twenty-one. Built by Lockheed for the CIA. A B-fifty-two carried it up. A rocket booster pushed it past Mach three.",
+      "rate_pct": 12,
+      "start": 7.35,
+      "end": 14.15,
+      "slot_end": 14.2,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "The D-twenty-one.",
+          "start": 7.35,
+          "end": 8.179
+        },
+        {
+          "text": "Built by Lockheed for the CIA.",
+          "start": 8.404,
+          "end": 10.093
+        },
+        {
+          "text": "A B-fifty-two carried it up.",
+          "start": 10.319,
+          "end": 11.863
+        },
+        {
+          "text": "A rocket booster pushed it past Mach three.",
+          "start": 12.088,
+          "end": 14.15
+        }
+      ],
+      "words": [
+        {
+          "w": "The",
+          "start": 7.356,
+          "end": 7.423
+        },
+        {
+          "w": "D-twenty-one",
+          "start": 7.434,
+          "end": 8.137
+        },
+        {
+          "w": "Built",
+          "start": 8.406,
+          "end": 8.618
+        },
+        {
+          "w": "by",
+          "start": 8.618,
+          "end": 8.774
+        },
+        {
+          "w": "Lockheed",
+          "start": 8.785,
+          "end": 9.288
+        },
+        {
+          "w": "for",
+          "start": 9.299,
+          "end": 9.377
+        },
+        {
+          "w": "the",
+          "start": 9.388,
+          "end": 9.455
+        },
+        {
+          "w": "CIA",
+          "start": 9.466,
+          "end": 10.035
+        },
+        {
+          "w": "A",
+          "start": 10.278,
+          "end": 10.356
+        },
+        {
+          "w": "B-fifty-two",
+          "start": 10.367,
+          "end": 11.104
+        },
+        {
+          "w": "carried",
+          "start": 11.115,
+          "end": 11.461
+        },
+        {
+          "w": "it",
+          "start": 11.472,
+          "end": 11.539
+        },
+        {
+          "w": "up",
+          "start": 11.55,
+          "end": 11.829
+        },
+        {
+          "w": "A",
+          "start": 12.049,
+          "end": 12.105
+        },
+        {
+          "w": "rocket",
+          "start": 12.116,
+          "end": 12.484
+        },
+        {
+          "w": "booster",
+          "start": 12.495,
+          "end": 12.841
+        },
+        {
+          "w": "pushed",
+          "start": 12.852,
+          "end": 13.098
+        },
+        {
+          "w": "it",
+          "start": 13.109,
+          "end": 13.187
+        },
+        {
+          "w": "past",
+          "start": 13.198,
+          "end": 13.533
+        },
+        {
+          "w": "Mach",
+          "start": 13.544,
+          "end": 13.734
+        },
+        {
+          "w": "three",
+          "start": 13.745,
+          "end": 14.102
+        }
+      ],
+      "file": "narration/N2.wav"
+    },
+    {
+      "id": "N3",
+      "block": "N3",
+      "text": "Its target: Lop Nor, China's nuclear test site. The drone followed the route alone. No joystick. No second chances.",
+      "rate_pct": 28,
+      "start": 14.85,
+      "end": 21.036,
+      "slot_end": 21.2,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "Its target: Lop Nor, China's nuclear test site.",
+          "start": 14.85,
+          "end": 17.406
+        },
+        {
+          "text": "The drone followed the route alone.",
+          "start": 17.606,
+          "end": 18.934
+        },
+        {
+          "text": "No joystick.",
+          "start": 19.134,
+          "end": 19.754
+        },
+        {
+          "text": "No second chances.",
+          "start": 19.954,
+          "end": 21.036
+        }
+      ],
+      "words": [
+        {
+          "w": "Its",
+          "start": 14.808,
+          "end": 14.915
+        },
+        {
+          "w": "target",
+          "start": 14.925,
+          "end": 15.267
+        },
+        {
+          "w": "Lop",
+          "start": 15.529,
+          "end": 15.754
+        },
+        {
+          "w": "Nor",
+          "start": 15.764,
+          "end": 16.076
+        },
+        {
+          "w": "China's",
+          "start": 16.201,
+          "end": 16.512
+        },
+        {
+          "w": "nuclear",
+          "start": 16.522,
+          "end": 16.883
+        },
+        {
+          "w": "test",
+          "start": 16.893,
+          "end": 17.117
+        },
+        {
+          "w": "site",
+          "start": 17.117,
+          "end": 17.391
+        },
+        {
+          "w": "The",
+          "start": 17.561,
+          "end": 17.62
+        },
+        {
+          "w": "drone",
+          "start": 17.629,
+          "end": 17.932
+        },
+        {
+          "w": "followed",
+          "start": 17.942,
+          "end": 18.274
+        },
+        {
+          "w": "the",
+          "start": 18.284,
+          "end": 18.333
+        },
+        {
+          "w": "route",
+          "start": 18.342,
+          "end": 18.499
+        },
+        {
+          "w": "alone",
+          "start": 18.508,
+          "end": 18.889
+        },
+        {
+          "w": "No",
+          "start": 19.096,
+          "end": 19.243
+        },
+        {
+          "w": "joystick",
+          "start": 19.243,
+          "end": 19.731
+        },
+        {
+          "w": "No",
+          "start": 19.908,
+          "end": 20.171
+        },
+        {
+          "w": "second",
+          "start": 20.181,
+          "end": 20.503
+        },
+        {
+          "w": "chances",
+          "start": 20.513,
+          "end": 21.021
+        }
+      ],
+      "file": "narration/N3.wav"
+    },
+    {
+      "id": "N4",
+      "block": "N4",
+      "text": "After photographing the site, it turned for the Pacific. The film sat inside a small recovery pod.",
+      "rate_pct": 12,
+      "start": 21.85,
+      "end": 27.15,
+      "slot_end": 27.2,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "After photographing the site, it turned for the Pacific.",
+          "start": 21.85,
+          "end": 24.51
+        },
+        {
+          "text": "The film sat inside a small recovery pod.",
+          "start": 24.718,
+          "end": 27.15
+        }
+      ],
+      "words": [
+        {
+          "w": "After",
+          "start": 21.801,
+          "end": 22.08
+        },
+        {
+          "w": "photographing",
+          "start": 22.092,
+          "end": 22.627
+        },
+        {
+          "w": "the",
+          "start": 22.638,
+          "end": 22.705
+        },
+        {
+          "w": "site",
+          "start": 22.705,
+          "end": 23.085
+        },
+        {
+          "w": "it",
+          "start": 23.415,
+          "end": 23.527
+        },
+        {
+          "w": "turned",
+          "start": 23.527,
+          "end": 23.772
+        },
+        {
+          "w": "for",
+          "start": 23.784,
+          "end": 23.862
+        },
+        {
+          "w": "the",
+          "start": 23.873,
+          "end": 23.929
+        },
+        {
+          "w": "Pacific",
+          "start": 23.94,
+          "end": 24.487
+        },
+        {
+          "w": "The",
+          "start": 24.694,
+          "end": 24.761
+        },
+        {
+          "w": "film",
+          "start": 24.761,
+          "end": 25.074
+        },
+        {
+          "w": "sat",
+          "start": 25.085,
+          "end": 25.453
+        },
+        {
+          "w": "inside",
+          "start": 25.464,
+          "end": 25.855
+        },
+        {
+          "w": "a",
+          "start": 25.866,
+          "end": 25.899
+        },
+        {
+          "w": "small",
+          "start": 25.911,
+          "end": 26.301
+        },
+        {
+          "w": "recovery",
+          "start": 26.312,
+          "end": 26.681
+        },
+        {
+          "w": "pod",
+          "start": 26.692,
+          "end": 27.116
+        }
+      ],
+      "file": "narration/N4.wav"
+    },
+    {
+      "id": "N5",
+      "block": "N5",
+      "text": "Over the ocean, the pod ejected. A parachute opened, and a C-one-thirty moved in to catch it. The drone itself was expendable.",
+      "rate_pct": 6,
+      "start": 27.85,
+      "end": 35.65,
+      "slot_end": 35.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "Over the ocean, the pod ejected.",
+          "start": 27.85,
+          "end": 29.798
+        },
+        {
+          "text": "A parachute opened, and a C-one-thirty moved in to catch it.",
+          "start": 29.955,
+          "end": 33.33
+        },
+        {
+          "text": "The drone itself was expendable.",
+          "start": 33.486,
+          "end": 35.65
+        }
+      ],
+      "words": [
+        {
+          "w": "Over",
+          "start": 27.813,
+          "end": 28.002
+        },
+        {
+          "w": "the",
+          "start": 28.002,
+          "end": 28.132
+        },
+        {
+          "w": "ocean",
+          "start": 28.132,
+          "end": 28.592
+        },
+        {
+          "w": "the",
+          "start": 28.792,
+          "end": 28.886
+        },
+        {
+          "w": "pod",
+          "start": 28.898,
+          "end": 29.216
+        },
+        {
+          "w": "ejected",
+          "start": 29.216,
+          "end": 29.77
+        },
+        {
+          "w": "A",
+          "start": 29.964,
+          "end": 30.047
+        },
+        {
+          "w": "parachute",
+          "start": 30.059,
+          "end": 30.589
+        },
+        {
+          "w": "opened",
+          "start": 30.601,
+          "end": 31.002
+        },
+        {
+          "w": "and",
+          "start": 31.372,
+          "end": 31.561
+        },
+        {
+          "w": "a",
+          "start": 31.572,
+          "end": 31.631
+        },
+        {
+          "w": "C-one-thirty",
+          "start": 31.643,
+          "end": 32.303
+        },
+        {
+          "w": "moved",
+          "start": 32.315,
+          "end": 32.575
+        },
+        {
+          "w": "in",
+          "start": 32.575,
+          "end": 32.728
+        },
+        {
+          "w": "to",
+          "start": 32.74,
+          "end": 32.811
+        },
+        {
+          "w": "catch",
+          "start": 32.822,
+          "end": 33.105
+        },
+        {
+          "w": "it",
+          "start": 33.105,
+          "end": 33.318
+        },
+        {
+          "w": "The",
+          "start": 33.488,
+          "end": 33.571
+        },
+        {
+          "w": "drone",
+          "start": 33.571,
+          "end": 33.889
+        },
+        {
+          "w": "itself",
+          "start": 33.901,
+          "end": 34.502
+        },
+        {
+          "w": "was",
+          "start": 34.644,
+          "end": 34.857
+        },
+        {
+          "w": "expendable",
+          "start": 34.869,
+          "end": 35.635
+        }
+      ],
+      "file": "narration/N5.wav"
+    },
+    {
+      "id": "N6",
+      "block": "N6",
+      "text": "That was the plan.",
+      "rate_pct": -8,
+      "start": 36.45,
+      "end": 37.691,
+      "slot_end": 37.8,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "That was the plan.",
+          "start": 36.45,
+          "end": 37.691
+        }
+      ],
+      "words": [
+        {
+          "w": "That",
+          "start": 36.488,
+          "end": 36.719
+        },
+        {
+          "w": "was",
+          "start": 36.733,
+          "end": 36.923
+        },
+        {
+          "w": "the",
+          "start": 36.937,
+          "end": 37.032
+        },
+        {
+          "w": "plan",
+          "start": 37.032,
+          "end": 37.643
+        }
+      ],
+      "file": "narration/N6.wav"
+    },
+    {
+      "id": "N7a",
+      "block": "N7",
+      "text": "The first drone missed its turn.",
+      "rate_pct": 4,
+      "start": 38.4,
+      "end": 40.202,
+      "slot_end": 50.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "The first drone missed its turn.",
+          "start": 38.4,
+          "end": 40.202
+        }
+      ],
+      "words": [
+        {
+          "w": "The",
+          "start": 38.391,
+          "end": 38.463
+        },
+        {
+          "w": "first",
+          "start": 38.475,
+          "end": 38.896
+        },
+        {
+          "w": "drone",
+          "start": 38.896,
+          "end": 39.305
+        },
+        {
+          "w": "missed",
+          "start": 39.317,
+          "end": 39.569
+        },
+        {
+          "w": "its",
+          "start": 39.569,
+          "end": 39.713
+        },
+        {
+          "w": "turn",
+          "start": 39.725,
+          "end": 40.158
+        }
+      ],
+      "file": "narration/N7a.wav"
+    },
+    {
+      "id": "N7b",
+      "block": "N7",
+      "text": "The second returned, but its parachute failed.",
+      "rate_pct": 4,
+      "start": 41.4,
+      "end": 43.994,
+      "slot_end": 50.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "The second returned, but its parachute failed.",
+          "start": 41.4,
+          "end": 43.994
+        }
+      ],
+      "words": [
+        {
+          "w": "The",
+          "start": 41.359,
+          "end": 41.431
+        },
+        {
+          "w": "second",
+          "start": 41.443,
+          "end": 41.828
+        },
+        {
+          "w": "returned",
+          "start": 41.84,
+          "end": 42.333
+        },
+        {
+          "w": "but",
+          "start": 42.654,
+          "end": 42.811
+        },
+        {
+          "w": "its",
+          "start": 42.823,
+          "end": 42.967
+        },
+        {
+          "w": "parachute",
+          "start": 42.979,
+          "end": 43.52
+        },
+        {
+          "w": "failed",
+          "start": 43.532,
+          "end": 43.976
+        }
+      ],
+      "file": "narration/N7b.wav"
+    },
+    {
+      "id": "N7c",
+      "block": "N7",
+      "text": "On the third, the pod was lost at sea.",
+      "rate_pct": 4,
+      "start": 44.55,
+      "end": 46.901,
+      "slot_end": 50.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "On the third, the pod was lost at sea.",
+          "start": 44.55,
+          "end": 46.901
+        }
+      ],
+      "words": [
+        {
+          "w": "On",
+          "start": 44.506,
+          "end": 44.626
+        },
+        {
+          "w": "the",
+          "start": 44.638,
+          "end": 44.71
+        },
+        {
+          "w": "third",
+          "start": 44.722,
+          "end": 45.227
+        },
+        {
+          "w": "the",
+          "start": 45.449,
+          "end": 45.545
+        },
+        {
+          "w": "pod",
+          "start": 45.557,
+          "end": 45.905
+        },
+        {
+          "w": "was",
+          "start": 45.917,
+          "end": 46.086
+        },
+        {
+          "w": "lost",
+          "start": 46.098,
+          "end": 46.434
+        },
+        {
+          "w": "at",
+          "start": 46.434,
+          "end": 46.506
+        },
+        {
+          "w": "sea",
+          "start": 46.506,
+          "end": 46.867
+        }
+      ],
+      "file": "narration/N7c.wav"
+    },
+    {
+      "id": "N7d",
+      "block": "N7",
+      "text": "The fourth crashed inside China.",
+      "rate_pct": 4,
+      "start": 47.7,
+      "end": 49.624,
+      "slot_end": 50.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "The fourth crashed inside China.",
+          "start": 47.7,
+          "end": 49.624
+        }
+      ],
+      "words": [
+        {
+          "w": "The",
+          "start": 47.661,
+          "end": 47.746
+        },
+        {
+          "w": "fourth",
+          "start": 47.758,
+          "end": 48.166
+        },
+        {
+          "w": "crashed",
+          "start": 48.166,
+          "end": 48.635
+        },
+        {
+          "w": "inside",
+          "start": 48.647,
+          "end": 49.128
+        },
+        {
+          "w": "China",
+          "start": 49.14,
+          "end": 49.573
+        }
+      ],
+      "file": "narration/N7d.wav"
+    },
+    {
+      "id": "N8",
+      "block": "N8",
+      "text": "Four missions. No usable pictures. In nineteen seventy-one, the program was shut down.",
+      "rate_pct": 8,
+      "start": 51.35,
+      "end": 56.65,
+      "slot_end": 56.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "Four missions.",
+          "start": 51.35,
+          "end": 52.155
+        },
+        {
+          "text": "No usable pictures.",
+          "start": 52.368,
+          "end": 53.589
+        },
+        {
+          "text": "In nineteen seventy-one, the program was shut down.",
+          "start": 53.801,
+          "end": 56.65
+        }
+      ],
+      "words": [
+        {
+          "w": "Four",
+          "start": 51.323,
+          "end": 51.462
+        },
+        {
+          "w": "missions",
+          "start": 51.473,
+          "end": 52.145
+        },
+        {
+          "w": "No",
+          "start": 52.325,
+          "end": 52.614
+        },
+        {
+          "w": "usable",
+          "start": 52.626,
+          "end": 52.973
+        },
+        {
+          "w": "pictures",
+          "start": 52.985,
+          "end": 53.564
+        },
+        {
+          "w": "In",
+          "start": 53.758,
+          "end": 53.943
+        },
+        {
+          "w": "nineteen",
+          "start": 53.955,
+          "end": 54.371
+        },
+        {
+          "w": "seventy-one",
+          "start": 54.383,
+          "end": 54.939
+        },
+        {
+          "w": "the",
+          "start": 55.312,
+          "end": 55.393
+        },
+        {
+          "w": "program",
+          "start": 55.405,
+          "end": 55.914
+        },
+        {
+          "w": "was",
+          "start": 55.926,
+          "end": 56.018
+        },
+        {
+          "w": "shut",
+          "start": 56.019,
+          "end": 56.25
+        },
+        {
+          "w": "down",
+          "start": 56.25,
+          "end": 56.609
+        }
+      ],
+      "file": "narration/N8.wav"
+    },
+    {
+      "id": "N9",
+      "block": "N9",
+      "text": "But one wreck survived. Decades later, China put a D-twenty-one on display: a secret mission, hiding in plain sight.",
+      "rate_pct": 8,
+      "start": 57.3,
+      "end": 64.465,
+      "slot_end": 64.7,
+      "fits_slot": true,
+      "sentences": [
+        {
+          "text": "But one wreck survived.",
+          "start": 57.3,
+          "end": 58.593
+        },
+        {
+          "text": "Decades later, China put a D-twenty-one on display: a secret mission, hiding in plain sight.",
+          "start": 58.893,
+          "end": 64.465
+        }
+      ],
+      "words": [
+        {
+          "w": "But",
+          "start": 57.3,
+          "end": 57.474
+        },
+        {
+          "w": "one",
+          "start": 57.485,
+          "end": 57.763
+        },
+        {
+          "w": "wreck",
+          "start": 57.774,
+          "end": 57.948
+        },
+        {
+          "w": "survived",
+          "start": 57.96,
+          "end": 58.573
+        },
+        {
+          "w": "Decades",
+          "start": 58.851,
+          "end": 59.268
+        },
+        {
+          "w": "later",
+          "start": 59.28,
+          "end": 59.627
+        },
+        {
+          "w": "China",
+          "start": 59.812,
+          "end": 60.205
+        },
+        {
+          "w": "put",
+          "start": 60.217,
+          "end": 60.39
+        },
+        {
+          "w": "a",
+          "start": 60.46,
+          "end": 60.564
+        },
+        {
+          "w": "D-twenty-one",
+          "start": 60.576,
+          "end": 61.212
+        },
+        {
+          "w": "on",
+          "start": 61.224,
+          "end": 61.316
+        },
+        {
+          "w": "display",
+          "start": 61.328,
+          "end": 61.814
+        },
+        {
+          "w": "a",
+          "start": 62.196,
+          "end": 62.242
+        },
+        {
+          "w": "secret",
+          "start": 62.242,
+          "end": 62.636
+        },
+        {
+          "w": "mission",
+          "start": 62.636,
+          "end": 62.994
+        },
+        {
+          "w": "hiding",
+          "start": 63.329,
+          "end": 63.63
+        },
+        {
+          "w": "in",
+          "start": 63.641,
+          "end": 63.745
+        },
+        {
+          "w": "plain",
+          "start": 63.757,
+          "end": 64.07
+        },
+        {
+          "w": "sight",
+          "start": 64.081,
+          "end": 64.452
+        }
+      ],
+      "file": "narration/N9.wav"
+    }
+  ],
+  "typed": [
+    {
+      "id": "T01",
+      "text": "CHINA / 1969",
+      "start": 0.25,
+      "last_key": 1.284,
+      "end": 1.404,
+      "keys": [
+        {
+          "char": "C",
+          "t": 0.25,
+          "pan": -0.058,
+          "vel": 1.002
+        },
+        {
+          "char": "H",
+          "t": 0.3422,
+          "pan": 0.027,
+          "vel": 0.803
+        },
+        {
+          "char": "I",
+          "t": 0.4328,
+          "pan": 0.085,
+          "vel": 0.963
+        },
+        {
+          "char": "N",
+          "t": 0.5356,
+          "pan": 0.044,
+          "vel": 0.981
+        },
+        {
+          "char": "A",
+          "t": 0.6031,
+          "pan": -0.142,
+          "vel": 1.017
+        },
+        {
+          "char": " ",
+          "t": 0.6855,
+          "pan": 0.0,
+          "vel": 1.021
+        },
+        {
+          "char": "/",
+          "t": 0.7972,
+          "pan": 0.179,
+          "vel": 1.017
+        },
+        {
+          "char": " ",
+          "t": 0.8858,
+          "pan": 0.0,
+          "vel": 1.156
+        },
+        {
+          "char": "1",
+          "t": 1.0033,
+          "pan": -0.169,
+          "vel": 0.966
+        },
+        {
+          "char": "9",
+          "t": 1.1021,
+          "pan": 0.102,
+          "vel": 0.984
+        },
+        {
+          "char": "6",
+          "t": 1.2092,
+          "pan": 0.0,
+          "vel": 1.15
+        },
+        {
+          "char": "9",
+          "t": 1.284,
+          "pan": 0.102,
+          "vel": 0.97
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "text": "D-21B",
+      "start": 7.0,
+      "last_key": 7.378,
+      "end": 7.498,
+      "keys": [
+        {
+          "char": "D",
+          "t": 7.0,
+          "pan": -0.074,
+          "vel": 0.927
+        },
+        {
+          "char": "-",
+          "t": 7.1052,
+          "pan": 0.169,
+          "vel": 1.058
+        },
+        {
+          "char": "2",
+          "t": 7.1886,
+          "pan": -0.135,
+          "vel": 1.032
+        },
+        {
+          "char": "1",
+          "t": 7.2856,
+          "pan": -0.169,
+          "vel": 0.936
+        },
+        {
+          "char": "B",
+          "t": 7.378,
+          "pan": 0.01,
+          "vel": 0.87
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "text": "LOP NOR",
+      "start": 14.6,
+      "last_key": 15.169,
+      "end": 15.289,
+      "keys": [
+        {
+          "char": "L",
+          "t": 14.6,
+          "pan": 0.129,
+          "vel": 0.999
+        },
+        {
+          "char": "O",
+          "t": 14.6947,
+          "pan": 0.118,
+          "vel": 0.99
+        },
+        {
+          "char": "P",
+          "t": 14.775,
+          "pan": 0.152,
+          "vel": 1.114
+        },
+        {
+          "char": " ",
+          "t": 14.8586,
+          "pan": 0.0,
+          "vel": 1.219
+        },
+        {
+          "char": "N",
+          "t": 14.9657,
+          "pan": 0.044,
+          "vel": 1.0
+        },
+        {
+          "char": "O",
+          "t": 15.0416,
+          "pan": 0.118,
+          "vel": 0.933
+        },
+        {
+          "char": "R",
+          "t": 15.1687,
+          "pan": -0.051,
+          "vel": 0.969
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "text": "MISSION 01",
+      "start": 38.1,
+      "last_key": 38.95,
+      "end": 39.07,
+      "keys": [
+        {
+          "char": "M",
+          "t": 38.1,
+          "pan": 0.078,
+          "vel": 1.074
+        },
+        {
+          "char": "I",
+          "t": 38.181,
+          "pan": 0.085,
+          "vel": 0.94
+        },
+        {
+          "char": "S",
+          "t": 38.2574,
+          "pan": -0.108,
+          "vel": 1.066
+        },
+        {
+          "char": "S",
+          "t": 38.3388,
+          "pan": -0.108,
+          "vel": 0.994
+        },
+        {
+          "char": "I",
+          "t": 38.4579,
+          "pan": 0.085,
+          "vel": 0.934
+        },
+        {
+          "char": "O",
+          "t": 38.5524,
+          "pan": 0.118,
+          "vel": 0.916
+        },
+        {
+          "char": "N",
+          "t": 38.6555,
+          "pan": 0.044,
+          "vel": 1.064
+        },
+        {
+          "char": " ",
+          "t": 38.7557,
+          "pan": 0.0,
+          "vel": 0.87
+        },
+        {
+          "char": "0",
+          "t": 38.859,
+          "pan": 0.135,
+          "vel": 1.034
+        },
+        {
+          "char": "1",
+          "t": 38.9501,
+          "pan": -0.169,
+          "vel": 1.128
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "text": "MISSION 02",
+      "start": 41.2,
+      "last_key": 42.072,
+      "end": 42.192,
+      "keys": [
+        {
+          "char": "M",
+          "t": 41.2,
+          "pan": 0.078,
+          "vel": 1.03
+        },
+        {
+          "char": "I",
+          "t": 41.3061,
+          "pan": 0.085,
+          "vel": 1.004
+        },
+        {
+          "char": "S",
+          "t": 41.3942,
+          "pan": -0.108,
+          "vel": 1.15
+        },
+        {
+          "char": "S",
+          "t": 41.5022,
+          "pan": -0.108,
+          "vel": 0.92
+        },
+        {
+          "char": "I",
+          "t": 41.6151,
+          "pan": 0.085,
+          "vel": 1.121
+        },
+        {
+          "char": "O",
+          "t": 41.6989,
+          "pan": 0.118,
+          "vel": 0.963
+        },
+        {
+          "char": "N",
+          "t": 41.7871,
+          "pan": 0.044,
+          "vel": 1.13
+        },
+        {
+          "char": " ",
+          "t": 41.8531,
+          "pan": 0.0,
+          "vel": 1.107
+        },
+        {
+          "char": "0",
+          "t": 41.9721,
+          "pan": 0.135,
+          "vel": 1.005
+        },
+        {
+          "char": "2",
+          "t": 42.0715,
+          "pan": -0.135,
+          "vel": 0.977
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "text": "MISSION 03",
+      "start": 44.3,
+      "last_key": 45.222,
+      "end": 45.342,
+      "keys": [
+        {
+          "char": "M",
+          "t": 44.3,
+          "pan": 0.078,
+          "vel": 1.014
+        },
+        {
+          "char": "I",
+          "t": 44.4106,
+          "pan": 0.085,
+          "vel": 0.962
+        },
+        {
+          "char": "S",
+          "t": 44.5033,
+          "pan": -0.108,
+          "vel": 0.934
+        },
+        {
+          "char": "S",
+          "t": 44.6158,
+          "pan": -0.108,
+          "vel": 1.026
+        },
+        {
+          "char": "I",
+          "t": 44.7225,
+          "pan": 0.085,
+          "vel": 1.002
+        },
+        {
+          "char": "O",
+          "t": 44.8166,
+          "pan": 0.118,
+          "vel": 0.939
+        },
+        {
+          "char": "N",
+          "t": 44.9197,
+          "pan": 0.044,
+          "vel": 0.954
+        },
+        {
+          "char": " ",
+          "t": 44.9983,
+          "pan": 0.0,
+          "vel": 0.972
+        },
+        {
+          "char": "0",
+          "t": 45.1315,
+          "pan": 0.135,
+          "vel": 0.907
+        },
+        {
+          "char": "3",
+          "t": 45.2218,
+          "pan": -0.102,
+          "vel": 1.05
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "text": "MISSION 04",
+      "start": 47.4,
+      "last_key": 48.409,
+      "end": 48.529,
+      "keys": [
+        {
+          "char": "M",
+          "t": 47.4,
+          "pan": 0.078,
+          "vel": 0.958
+        },
+        {
+          "char": "I",
+          "t": 47.5117,
+          "pan": 0.085,
+          "vel": 1.018
+        },
+        {
+          "char": "S",
+          "t": 47.5906,
+          "pan": -0.108,
+          "vel": 1.15
+        },
+        {
+          "char": "S",
+          "t": 47.7138,
+          "pan": -0.108,
+          "vel": 1.109
+        },
+        {
+          "char": "I",
+          "t": 47.8356,
+          "pan": 0.085,
+          "vel": 0.993
+        },
+        {
+          "char": "O",
+          "t": 47.9397,
+          "pan": 0.118,
+          "vel": 0.987
+        },
+        {
+          "char": "N",
+          "t": 48.0598,
+          "pan": 0.044,
+          "vel": 0.906
+        },
+        {
+          "char": " ",
+          "t": 48.1638,
+          "pan": 0.0,
+          "vel": 1.085
+        },
+        {
+          "char": "0",
+          "t": 48.2815,
+          "pan": 0.135,
+          "vel": 1.0
+        },
+        {
+          "char": "4",
+          "t": 48.4089,
+          "pan": -0.068,
+          "vel": 1.009
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "text": "FOUR MISSIONS",
+      "start": 51.2,
+      "last_key": 52.334,
+      "end": 52.454,
+      "keys": [
+        {
+          "char": "F",
+          "t": 51.2,
+          "pan": -0.041,
+          "vel": 0.972
+        },
+        {
+          "char": "O",
+          "t": 51.3181,
+          "pan": 0.118,
+          "vel": 1.101
+        },
+        {
+          "char": "U",
+          "t": 51.4017,
+          "pan": 0.051,
+          "vel": 1.043
+        },
+        {
+          "char": "R",
+          "t": 51.4901,
+          "pan": -0.051,
+          "vel": 1.051
+        },
+        {
+          "char": " ",
+          "t": 51.5997,
+          "pan": 0.0,
+          "vel": 1.107
+        },
+        {
+          "char": "M",
+          "t": 51.7075,
+          "pan": 0.078,
+          "vel": 1.066
+        },
+        {
+          "char": "I",
+          "t": 51.8028,
+          "pan": 0.085,
+          "vel": 0.939
+        },
+        {
+          "char": "S",
+          "t": 51.9004,
+          "pan": -0.108,
+          "vel": 0.946
+        },
+        {
+          "char": "S",
+          "t": 51.9712,
+          "pan": -0.108,
+          "vel": 1.129
+        },
+        {
+          "char": "I",
+          "t": 52.0598,
+          "pan": 0.085,
+          "vel": 1.076
+        },
+        {
+          "char": "O",
+          "t": 52.1652,
+          "pan": 0.118,
+          "vel": 0.973
+        },
+        {
+          "char": "N",
+          "t": 52.2457,
+          "pan": 0.044,
+          "vel": 0.931
+        },
+        {
+          "char": "S",
+          "t": 52.3342,
+          "pan": -0.108,
+          "vel": 1.034
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "text": "ARTIFACT / D-21B",
+      "start": 57.1,
+      "last_key": 58.639,
+      "end": 58.759,
+      "keys": [
+        {
+          "char": "A",
+          "t": 57.1,
+          "pan": -0.142,
+          "vel": 1.005
+        },
+        {
+          "char": "R",
+          "t": 57.2323,
+          "pan": -0.051,
+          "vel": 1.04
+        },
+        {
+          "char": "T",
+          "t": 57.3337,
+          "pan": -0.017,
+          "vel": 1.088
+        },
+        {
+          "char": "I",
+          "t": 57.4051,
+          "pan": 0.085,
+          "vel": 1.048
+        },
+        {
+          "char": "F",
+          "t": 57.4919,
+          "pan": -0.041,
+          "vel": 0.972
+        },
+        {
+          "char": "A",
+          "t": 57.608,
+          "pan": -0.142,
+          "vel": 0.897
+        },
+        {
+          "char": "C",
+          "t": 57.7078,
+          "pan": -0.058,
+          "vel": 1.047
+        },
+        {
+          "char": "T",
+          "t": 57.7896,
+          "pan": -0.017,
+          "vel": 0.893
+        },
+        {
+          "char": " ",
+          "t": 57.8928,
+          "pan": 0.0,
+          "vel": 1.218
+        },
+        {
+          "char": "/",
+          "t": 57.9788,
+          "pan": 0.179,
+          "vel": 1.109
+        },
+        {
+          "char": " ",
+          "t": 58.0952,
+          "pan": 0.0,
+          "vel": 0.949
+        },
+        {
+          "char": "D",
+          "t": 58.2216,
+          "pan": -0.074,
+          "vel": 0.908
+        },
+        {
+          "char": "-",
+          "t": 58.3195,
+          "pan": 0.169,
+          "vel": 0.95
+        },
+        {
+          "char": "2",
+          "t": 58.4274,
+          "pan": -0.135,
+          "vel": 0.896
+        },
+        {
+          "char": "1",
+          "t": 58.5392,
+          "pan": -0.169,
+          "vel": 1.034
+        },
+        {
+          "char": "B",
+          "t": 58.6394,
+          "pan": 0.01,
+          "vel": 1.066
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "text": "SENIOR BOWL",
+      "start": 65.0,
+      "last_key": 66.044,
+      "end": 66.164,
+      "keys": [
+        {
+          "char": "S",
+          "t": 65.0,
+          "pan": -0.108,
+          "vel": 1.063
+        },
+        {
+          "char": "E",
+          "t": 65.1443,
+          "pan": -0.085,
+          "vel": 0.975
+        },
+        {
+          "char": "N",
+          "t": 65.2565,
+          "pan": 0.044,
+          "vel": 0.8
+        },
+        {
+          "char": "I",
+          "t": 65.3337,
+          "pan": 0.085,
+          "vel": 0.966
+        },
+        {
+          "char": "O",
+          "t": 65.4477,
+          "pan": 0.118,
+          "vel": 1.084
+        },
+        {
+          "char": "R",
+          "t": 65.531,
+          "pan": -0.051,
+          "vel": 0.989
+        },
+        {
+          "char": " ",
+          "t": 65.6354,
+          "pan": 0.0,
+          "vel": 1.206
+        },
+        {
+          "char": "B",
+          "t": 65.7577,
+          "pan": 0.01,
+          "vel": 0.949
+        },
+        {
+          "char": "O",
+          "t": 65.8468,
+          "pan": 0.118,
+          "vel": 1.063
+        },
+        {
+          "char": "W",
+          "t": 65.939,
+          "pan": -0.118,
+          "vel": 1.029
+        },
+        {
+          "char": "L",
+          "t": 66.044,
+          "pan": 0.129,
+          "vel": 0.97
+        }
+      ]
+    }
+  ],
+  "appear_taps": [
+    {
+      "id": "A01",
+      "after": "T01",
+      "t": 1.444,
+      "size": "M",
+      "optional": true
+    },
+    {
+      "id": "A02",
+      "after": "T08",
+      "t": 52.4942,
+      "size": "M",
+      "optional": true
+    },
+    {
+      "id": "A03",
+      "after": "T09",
+      "t": 58.7994,
+      "size": "M",
+      "optional": true
+    },
+    {
+      "id": "A04",
+      "after": "T10",
+      "t": 66.204,
+      "size": "L",
+      "optional": true
+    }
+  ],
+  "sfx": [
+    {
+      "id": "separation",
+      "t": 8.8,
+      "start": 8.42,
+      "end": 10.32,
+      "peak_dbfs": -10.0,
+      "sends": {
+        "room": -13
+      },
+      "extra": false,
+      "desc": "pylon release: hook creak, steel clunk, ejector ram, wing flex, drone falling away"
+    },
+    {
+      "id": "booster",
+      "t": 9.6,
+      "start": 9.6,
+      "end": 15.2,
+      "peak_dbfs": -12.0,
+      "sends": {
+        "room": -24
+      },
+      "extra": false,
+      "desc": "solid booster: ignition thump, crackling roar (deep, 40-300 Hz weighted), burnout into cruise"
+    },
+    {
+      "id": "camera_shutter",
+      "t": 17.5,
+      "start": 17.47,
+      "end": 17.97,
+      "peak_dbfs": -14.0,
+      "sends": {
+        "room": -18
+      },
+      "extra": false,
+      "desc": "heavy focal-plane shutter, body knock, film advance"
+    },
+    {
+      "id": "optical_shutter",
+      "t": 22.0,
+      "start": 21.79,
+      "end": 22.39,
+      "peak_dbfs": -20.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": false,
+      "desc": "optical window shutter closing: blades, servo whine, latch"
+    },
+    {
+      "id": "servo_turn",
+      "t": 23.1,
+      "start": 23.1,
+      "end": 23.9,
+      "peak_dbfs": -25.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": true,
+      "desc": "small control actuator for 'turned for the Pacific'"
+    },
+    {
+      "id": "pod_eject",
+      "t": 28.8,
+      "start": 28.7,
+      "end": 30.7,
+      "peak_dbfs": -12.0,
+      "sends": {
+        "room": -16
+      },
+      "extra": false,
+      "desc": "recovery pod: squib/pressure pop, hatch ring, gas hiss, tumbling away"
+    },
+    {
+      "id": "parachute",
+      "t": 30.2,
+      "start": 30.2,
+      "end": 33.6,
+      "peak_dbfs": -11.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": false,
+      "desc": "parachute: pilot snap, line pay-out, canopy whump, fabric flutter"
+    },
+    {
+      "id": "c130_approach",
+      "t": 32.5,
+      "start": 32.5,
+      "end": 36.05,
+      "peak_dbfs": -17.0,
+      "sends": {},
+      "extra": false,
+      "desc": "C-130: four props beating, rising roar, turbine whine, gentle Doppler"
+    },
+    {
+      "id": "c130_catch",
+      "t": 34.12,
+      "start": 34.0,
+      "end": 36.2,
+      "peak_dbfs": -13.0,
+      "sends": {
+        "room": -22
+      },
+      "extra": false,
+      "desc": "mid-air retrieval: cable zip, hook contact, tension thump, line twang, winch"
+    },
+    {
+      "id": "relay_hard",
+      "t": 36.0,
+      "start": 36.0,
+      "end": 36.22,
+      "peak_dbfs": -7.0,
+      "sends": {},
+      "extra": false,
+      "desc": "hard contactor throw; everything else (air, effects, tails) is gated to silence 36.0-38.0"
+    },
+    {
+      "id": "fail1_guidance",
+      "t": 40.2,
+      "start": 39.73,
+      "end": 41.53,
+      "peak_dbfs": -16.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": false,
+      "desc": "guidance fault: servo hunting, fault relay + end-stop, gyro rotor spinning down"
+    },
+    {
+      "id": "fail2_parachute",
+      "t": 43.4,
+      "start": 43.4,
+      "end": 45.1,
+      "peak_dbfs": -17.0,
+      "sends": {
+        "room": -22
+      },
+      "extra": false,
+      "desc": "parachute failure: weak pop, canopy rip, line snap, ragged flutter, whistle of a fast fall"
+    },
+    {
+      "id": "fail3_water",
+      "t": 46.5,
+      "start": 46.36,
+      "end": 49.06,
+      "peak_dbfs": -13.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": false,
+      "desc": "sea impact: slap, cavity bloop, spray, bubbles, then muffled as the pod goes under"
+    },
+    {
+      "id": "fail4_impact",
+      "t": 49.6,
+      "start": 49.6,
+      "end": 51.4,
+      "peak_dbfs": -10.0,
+      "sends": {
+        "room": -22
+      },
+      "extra": false,
+      "desc": "low restrained crash: deep thud, dirt, scattered debris (no explosion)"
+    },
+    {
+      "id": "film_transport",
+      "t": 52.2,
+      "start": 52.2,
+      "end": 54.95,
+      "peak_dbfs": -24.0,
+      "sends": {
+        "room": -24
+      },
+      "extra": false,
+      "desc": "blank film transport: motor, sprocket ticks, tail flapping, spool stop"
+    },
+    {
+      "id": "contactor_open",
+      "t": 56.15,
+      "start": 56.15,
+      "end": 57.15,
+      "peak_dbfs": -24.0,
+      "sends": {
+        "room": -20
+      },
+      "extra": true,
+      "desc": "soft breaker drop under 'the program was shut down'"
+    },
+    {
+      "id": "crt_degauss",
+      "t": 57.0,
+      "start": 57.0,
+      "end": 59.4,
+      "peak_dbfs": -26.0,
+      "sends": {
+        "hall": -16
+      },
+      "extra": true,
+      "desc": "CRT degauss thump + decaying mains hum as the archive terminal wakes"
+    },
+    {
+      "id": "archive_close",
+      "t": 64.8,
+      "start": 64.38,
+      "end": 66.98,
+      "peak_dbfs": -11.0,
+      "sends": {
+        "hall": -9
+      },
+      "extra": false,
+      "desc": "steel archive drawer rolls shut: heavy stop, ring, latch, rebound"
+    }
+  ],
+  "beds": {
+    "air": [
+      [
+        0,
+        -90
+      ],
+      [
+        0.3,
+        -90
+      ],
+      [
+        1.8,
+        -45
+      ],
+      [
+        6.0,
+        -45
+      ],
+      [
+        8.6,
+        -43
+      ],
+      [
+        8.8,
+        -39
+      ],
+      [
+        9.8,
+        -43
+      ],
+      [
+        14,
+        -43
+      ],
+      [
+        22,
+        -45
+      ],
+      [
+        28.5,
+        -45
+      ],
+      [
+        29.5,
+        -48
+      ],
+      [
+        33,
+        -52
+      ],
+      [
+        36,
+        -52
+      ],
+      [
+        38,
+        -52
+      ],
+      [
+        39.5,
+        -50
+      ],
+      [
+        50.5,
+        -50
+      ],
+      [
+        51.0,
+        -56
+      ],
+      [
+        51.5,
+        -50
+      ],
+      [
+        56.5,
+        -50
+      ],
+      [
+        57,
+        -52
+      ],
+      [
+        64.5,
+        -52
+      ],
+      [
+        66.5,
+        -62
+      ],
+      [
+        68,
+        -90
+      ]
+    ],
+    "low": [
+      [
+        0,
+        -90
+      ],
+      [
+        1,
+        -90
+      ],
+      [
+        2,
+        -52
+      ],
+      [
+        8.7,
+        -52
+      ],
+      [
+        9.6,
+        -47
+      ],
+      [
+        14,
+        -47
+      ],
+      [
+        15,
+        -50
+      ],
+      [
+        28.8,
+        -50
+      ],
+      [
+        30,
+        -56
+      ],
+      [
+        38,
+        -56
+      ],
+      [
+        39,
+        -54
+      ],
+      [
+        51.5,
+        -54
+      ],
+      [
+        56.5,
+        -54
+      ],
+      [
+        57,
+        -50
+      ],
+      [
+        64.5,
+        -50
+      ],
+      [
+        66,
+        -60
+      ],
+      [
+        68,
+        -90
+      ]
+    ],
+    "carrier": [
+      [
+        0,
+        -90
+      ],
+      [
+        5.4,
+        -90
+      ],
+      [
+        7.0,
+        -52
+      ],
+      [
+        8.75,
+        -38
+      ],
+      [
+        8.9,
+        -70
+      ],
+      [
+        9.2,
+        -90
+      ]
+    ],
+    "cruise": [
+      [
+        0,
+        -90
+      ],
+      [
+        12.8,
+        -90
+      ],
+      [
+        14.8,
+        -52
+      ],
+      [
+        15.5,
+        -46
+      ],
+      [
+        28.4,
+        -46
+      ],
+      [
+        29.4,
+        -60
+      ],
+      [
+        30,
+        -90
+      ]
+    ]
+  },
+  "automation": {
+    "silence_gate": {
+      "start": 36.0,
+      "end": 38.0,
+      "fade_in_s": 1.5,
+      "note": "air, effects and tails are muted; relay_hard, keys and voice are not"
+    },
+    "sidechain_duck_db": {
+      "bed": 5.0,
+      "sfx": 2.5,
+      "keys": 2.0
+    },
+    "voice_correction_db": 2.43
+  },
+  "extras_enabled": true,
+  "master": {
+    "master_trim_db": 1.03,
+    "limiter_max_reduction_db": -0.0,
+    "mix": {
+      "sample_peak_dbfs": -1.5,
+      "true_peak_dbtp": -1.45,
+      "integrated_lufs": -16.04,
+      "rms_dbfs": -19.59,
+      "dc_offset": [
+        -0.0,
+        -0.0
+      ]
+    },
+    "narration_only": {
+      "sample_peak_dbfs": -1.51,
+      "true_peak_dbtp": -1.46,
+      "integrated_lufs": -15.97,
+      "rms_dbfs": -19.77,
+      "dc_offset": [
+        -0.0,
+        0.0
+      ]
+    },
+    "effects_only": {
+      "sample_peak_dbfs": -6.52,
+      "true_peak_dbtp": -6.51,
+      "integrated_lufs": -29.16,
+      "rms_dbfs": -33.47,
+      "dc_offset": [
+        -0.0,
+        -0.0
+      ]
+    },
+    "stereo_correlation": 0.809
+  }
+}
